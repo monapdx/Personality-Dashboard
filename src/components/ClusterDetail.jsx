@@ -55,8 +55,8 @@ export function ClusterDetail({ cluster, onClose, onEdit }) {
           <div className="list-block">
             <h4>Related charts</h4>
             <div className="chart-stack">
-              {related.map((chart) => (
-                <ChartFigure key={chart.src} src={chart.src} alt={chart.alt} />
+              {related.map((item) => (
+                <ChartFigure key={item.file} src={item.src} alt={item.alt} />
               ))}
             </div>
           </div>

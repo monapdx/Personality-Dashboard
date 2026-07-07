@@ -34,7 +34,7 @@ npm run preview # serve dist locally
 
 ## Editing the model
 
-Starter content lives in `src/data/initialData.js`, aligned with the mermaid charts in `mermaid-charts/`. Those PNGs sync into `public/mermaid-charts/` on `dev`/`build` and are mapped in `src/data/chartImages.js`. In the app you can:
+Starter content lives in `src/data/initialData.js`. Chart images live in `charts-graphs/` at the repo root; they sync into `public/charts-graphs/` on `dev`/`build` and are mapped in `src/data/chartImages.js`. In the app you can:
 
 - Add or delete **value clusters** from the Identity map section.
 - Edit titles, meanings, **principles**, **stress test questions**, and **suggested tools** per cluster.
@@ -53,7 +53,7 @@ src/
   main.jsx
   context/IdentityContext.jsx   # State + localStorage sync
   data/initialData.js     # Sample clusters, workflow, tool ideas, evaluator labels
-  data/chartImages.js     # Maps mermaid chart PNGs to sections and clusters
+  data/chartImages.js     # Maps charts-graphs PNGs to sections, clusters, and gallery groups
   components/             # Feature sections + modals
   utils/ids.js
   utils/markdownExport.js

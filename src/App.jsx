@@ -6,10 +6,12 @@ import { PrinciplesLibrary } from './components/PrinciplesLibrary';
 import { WorkflowBuilder } from './components/WorkflowBuilder';
 import { ToolIdeas } from './components/ToolIdeas';
 import { ProjectEvaluator } from './components/ProjectEvaluator';
+import { ChartsGraphs } from './components/ChartsGraphs';
 
 const SECTIONS = [
   { id: 'map', label: 'Identity map' },
   { id: 'principles', label: 'Principles library' },
+  { id: 'gallery', label: 'Charts & graphs' },
   { id: 'workflow', label: 'Workflow builder' },
   { id: 'tools', label: 'Tool ideas' },
   { id: 'evaluator', label: 'Project evaluator' },
@@ -45,6 +47,7 @@ export default function App() {
       <main>
         {section === 'map' ? <IdentityMap /> : null}
         {section === 'principles' ? <PrinciplesLibrary /> : null}
+        {section === 'gallery' ? <ChartsGraphs /> : null}
         {section === 'workflow' ? <WorkflowBuilder /> : null}
         {section === 'tools' ? <ToolIdeas /> : null}
         {section === 'evaluator' ? <ProjectEvaluator /> : null}

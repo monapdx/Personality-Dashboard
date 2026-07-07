@@ -1,17 +1,18 @@
 import { assetUrl } from '../utils/assetUrl';
 
+/** Paths match filenames in /mermaid-charts (synced to public/mermaid-charts on dev/build). */
 function chart(file, alt) {
-  return { src: assetUrl(`charts/${file}`), alt };
+  return { src: assetUrl(`mermaid-charts/${file}`), alt };
 }
 
 export const sectionCharts = {
   identityMap: {
-    core: chart('identity-core.png', 'Identity Core value map — seven clusters branching from Identity Core: Ash'),
-    kernel: chart('identity-kernel.png', 'Identity kernel — values, aspirations, mission, goals, beliefs, and standards'),
+    core: chart('Identity Core.png', 'Identity Core value map — seven clusters branching from Identity Core: Ash'),
+    kernel: chart('Identity Kernel.png', 'Identity kernel — values, aspirations, mission, goals, beliefs, and standards'),
     framework: chart('moral-framework.png', "Ashly's moral framework — justice, autonomy, harm, truth, and loyalty"),
   },
   workflow: {
-    primary: chart('feedback-loop.png', 'Workflow feedback loop — inputs, process, outputs, and return paths'),
+    primary: chart('Feedback Loop.png', 'Workflow feedback loop — inputs, process, outputs, and return paths'),
     alternate: chart('meaning.png', 'Linear workflow — inputs through process to outputs with feedback'),
   },
   evaluator: {
@@ -34,7 +35,7 @@ export const clusterCharts = {
   },
   'memory-preservation': {},
   'constraint-aware': {
-    primary: chart('reality-constraints.png', 'Reality constraints — adaptations and systems you build'),
+    primary: chart('Reality Constraints.png', 'Reality constraints — adaptations and systems you build'),
   },
   'refusal-valid': {
     related: [

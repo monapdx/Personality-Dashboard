@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "sync:charts": "node scripts/sync-mermaid-charts.js",
+    "predev": "npm run sync:charts",
+    "prebuild": "npm run sync:charts",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"

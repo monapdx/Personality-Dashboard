@@ -34,7 +34,7 @@ npm run preview # serve dist locally
 
 ## Editing the model
 
-Starter content lives in `src/data/initialData.js`, aligned with the mermaid charts in `mermaid-charts/`. Chart images are served from `public/charts/` and mapped in `src/data/chartImages.js`. In the app you can:
+Starter content lives in `src/data/initialData.js`, aligned with the mermaid charts in `mermaid-charts/`. Those PNGs sync into `public/mermaid-charts/` on `dev`/`build` and are mapped in `src/data/chartImages.js`. In the app you can:
 
 - Add or delete **value clusters** from the Identity map section.
 - Edit titles, meanings, **principles**, **stress test questions**, and **suggested tools** per cluster.

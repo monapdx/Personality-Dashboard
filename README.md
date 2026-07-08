@@ -1,6 +1,8 @@
-# Identity Core
+# Personality Dashboard
 
-**Identity Core** is a browser-based personal identity dashboard. It turns a philosophy map—values at the center, clusters around it—into a structured workspace you can search, edit, and stress-test without a server.
+<img src="https://raw.githubusercontent.com/monapdx/Personality-Dashboard/refs/heads/main/personality-dashboard.png">
+
+**Personality Dashboard** is a browser-based personal identity dashboard. It turns a philosophy map—values at the center, clusters around it—into a structured workspace you can search, edit, and stress-test without a server.
 
 ## What you get
 

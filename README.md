@@ -4,6 +4,8 @@
 
 **Personality Dashboard** is a browser-based personal identity dashboard. It turns a philosophy map—values at the center, clusters around it—into a structured workspace you can search, edit, and stress-test without a server.
 
+<img src="https://raw.githubusercontent.com/monapdx/Personality-Dashboard/2b88ae9479dcf80b41deb4d0e8e335df2ea9c845/big5-animated-loop.svg">
+
 ## What you get
 
 - **Identity map** — Interactive layout with **Identity Core** at the center and value clusters branching out. Tap a cluster for a readable summary; open the editor when you want to change copy, principles, stress tests, or suggested tools.

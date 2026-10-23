@@ -6,6 +6,8 @@
 
 <img src="https://raw.githubusercontent.com/monapdx/Personality-Dashboard/2b88ae9479dcf80b41deb4d0e8e335df2ea9c845/big5-animated-loop.svg">
 
+<img src="https://raw.githubusercontent.com/monapdx/Personality-Dashboard/f74881c1e520c3d6696a5f5553a14bb144aa81c5/top-traits-animated-loop.svg">
+
 ## What you get
 
 - **Identity map** — Interactive layout with **Identity Core** at the center and value clusters branching out. Tap a cluster for a readable summary; open the editor when you want to change copy, principles, stress tests, or suggested tools.
